@@ -100,6 +100,18 @@ Pour un suivi médical post-hospitalisation, l'objectif principal est de ne manq
 • Définition : Il mesure la proportion de patients réellement réhospitalisés que le modèle a réussi à détecter.
 • Formule : Rappel = Vrais Positifs (patients à risque bien détectés)\Total des patients réellement réhospitalisés
 • Dans votre exemple : 0/10 = 0. Cet indicateur révèle immédiatement l'inefficacité du modèle.
+
+### Chapitre 8
+
+Q1 : Je conseille à l'hôpital de ne pas utiliser cette IA pour décider seule des rappels
+Q2 : 
+	- Données médicales et de séjour, 
+	- Données de suivi réel (vérité terrain), 
+	- Données socio-démographiques (pour le contrôle uniquement) : l'âge, le sexe ou l'isolement social doivent être utilisés pour auditer l'équité du modèle, en veillant à ce que des variables proxys (comme le code postal) ne pénalisent pas injustement certaines populations.
+Q3 : 
+	- La capacité opérationnelle des équipes
+	- Le statut juridique et technique de l'outil
+	- Le protocole d'action en cas d'alerte
  
 
 
