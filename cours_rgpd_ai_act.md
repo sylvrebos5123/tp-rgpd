@@ -53,4 +53,33 @@ Si l'étude est un projet de recherche scientifique ou statistique pur :
 L'exception applicable est la recherche scientifique ou statistique (Article 9.2.j).
 Condition supplémentaire stricte (Droit belge - Loi du 30 juillet 2018) : L'équipe doit mettre en place des garanties appropriées, notamment la pseudonymisation préalable des données (via un tiers de confiance ou un intermédiaire au sein de l'hôpital), tenir un registre précis des traitements, et soumettre le protocole à un comité d'éthique si la loi belge sur l'expérimentation humaine s'applique.
 
+### Chapitre 5
+
+Pour protéger la vie privée des patients et respecter le RGPD (notamment le principe de protection des données dès la conception / Privacy by Design et le secret médical), il faut cloisonner les rôles. Personne dans l'équipe ne doit avoir accès à l'ensemble des informations.
+
+1. Data Manager
+ 
+Dossiers bruts + Table de correspondance (Code ↔ Identité).
+ 
+2. Data Scientists
+ 
+Uniquement les colonnes minimisées et pseudonymisées (Code #482, tranche d'âge, diagnostic CIM-10, durée de séjour).
+ 
+3. Équipe soignante
+ 
+Identité du patient + Dossier médical complet + La recommandation de l'IA (uniquement pour les patients ciblés).
+
+1. Le droit à exercer : Le droit de rectification
+En vertu de l'article 16 du RGPD (et de la loi belge relative aux droits du patient), toute personne a le droit d'obtenir la correction des données inexactes la concernant dans les meilleurs délais (en principe sous un mois).
+ 
+Nuance importante en milieu médical : Si l'erreur porte sur une donnée administrative (adresse, âge, date), elle est corrigée directement. Si le patient conteste un diagnostic médical, le médecin ne peut pas toujours effacer l'appréciation clinique initiale pour des raisons de traçabilité légale des soins ; dans ce cas, le droit de rectification prend la forme d'un ajout d'une déclaration complémentaire (ou note rectificative) versée au dossier médical pour consigner la remarque du patient.
+Impact sur l'IA : L'hôpital doit également veiller à ce que la donnée corrigée soit mise à jour dans la base utilisée par l'IA, afin d'éviter que l'algorithme ne fasse une suggestion erronée.
+ 
+2. Vers qui orienter le patient ?
+L'équipe d'analyse ne doit jamais traiter directement cette demande (puisqu'elle n'a pas accès à l'identité réelle du patient ni au dossier source). Le patient doit être dirigé vers deux interlocuteurs officiels au sein de l'hôpital :
+ 
+Le Délégué à la Protection des Données (DPO) de l'hôpital : C'est le point de contact légal obligatoire pour toute demande liée aux droits RGPD. Il enregistrera la demande, vérifiera l'identité du patient et s'assurera du respect du délai légal de réponse (1 mois).
+Le médecin traitant hospitalier (ou le service de médiation / secrétariat médical) : C'est le seul habilité à valider et modifier le contenu clinique du dossier patient source (dossier patient informatisé - DPI).
+ 
+
 
