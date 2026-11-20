@@ -91,6 +91,15 @@ Au sein d'un même hôpital, ces deux outils relèvent de régimes radicalement 
 2. L'IA aidant à fixer l'ordre de passage aux urgences
  
 • Niveau de risque : Haut risque. L'usage prévu consiste à hiérarchiser et prioriser l'accès aux soins d'urgence. Une défaillance, un biais ou une mauvaise évaluation peut entraîner un retard de prise en charge grave, voire mettre en danger la vie d'un patient.
+
+### Chapitre 7
+Combien de patients à rappeler a-t-il repérés : 0
+L'indicateur plus utile : le Rappel (ou Sensibilité)
+ 
+Pour un suivi médical post-hospitalisation, l'objectif principal est de ne manquer aucun patient en danger. L'indicateur clé à privilégier est donc le Rappel (appelé Sensibilité en médecine).
+• Définition : Il mesure la proportion de patients réellement réhospitalisés que le modèle a réussi à détecter.
+• Formule : Rappel = Vrais Positifs (patients à risque bien détectés)\Total des patients réellement réhospitalisés
+• Dans votre exemple : 0/10 = 0. Cet indicateur révèle immédiatement l'inefficacité du modèle.
  
 
 
