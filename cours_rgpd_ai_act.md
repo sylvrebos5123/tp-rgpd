@@ -80,6 +80,17 @@ L'équipe d'analyse ne doit jamais traiter directement cette demande (puisqu'ell
  
 Le Délégué à la Protection des Données (DPO) de l'hôpital : C'est le point de contact légal obligatoire pour toute demande liée aux droits RGPD. Il enregistrera la demande, vérifiera l'identité du patient et s'assurera du respect du délai légal de réponse (1 mois).
 Le médecin traitant hospitalier (ou le service de médiation / secrétariat médical) : C'est le seul habilité à valider et modifier le contenu clinique du dossier patient source (dossier patient informatisé - DPI).
+
+### Chapitre 6
+
+Au sein d'un même hôpital, ces deux outils relèvent de régimes radicalement différents :
+ 
+1. L'IA répondant aux questions sur les horaires de visite : 
+• Niveau de risque : Risque limité (obligations de transparence). Cet outil d'accueil administratif n'affecte ni les soins ni les droits fondamentaux des patients. Une erreur de réponse n'a pas d'impact critique sur la santé.
+ 
+2. L'IA aidant à fixer l'ordre de passage aux urgences
+ 
+• Niveau de risque : Haut risque. L'usage prévu consiste à hiérarchiser et prioriser l'accès aux soins d'urgence. Une défaillance, un biais ou une mauvaise évaluation peut entraîner un retard de prise en charge grave, voire mettre en danger la vie d'un patient.
  
 
 
