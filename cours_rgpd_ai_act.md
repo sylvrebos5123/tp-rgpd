@@ -34,4 +34,23 @@ Même sans certitude absolue, l'analyse des données permet de déduire avec une
 
 Comment pourrait-on neutraliser ces trois risques?
 
+### Chapitre 4
+
+En vertu du principe de minimisation du RGPD (article 5), l'équipe ne doit surtout pas demander le dossier médical complet, mais uniquement les données strictement pertinentes pour prédire ou analyser une réhospitalisation.
+
+Pour cette finalité précise, 5 catégories de colonnes suffisent généralement : identifiant pseudonymisé, délai entre les séjours, catégorie d'âge, diagnostic principal et comorbidités, type de sortie et durée de séjour.
+
+La mission d'intérêt public (Article 6.1.e) : C'est la base privilégiée pour les hôpitaux (publics ou privés exerçant une mission de service public de soins) lorsqu'ils cherchent à améliorer la qualité des soins ou à mener des recherches scientifiques d'intérêt général.
+L'intérêt légitime (Article 6.1.f) : Peut être invoqué par un établissement privé pour optimiser son organisation interne et réduire les réhospitalisations évitables, à condition que cela ne porte pas atteinte aux droits des patients.
+
+2. La condition supplémentaire pour les données de santé (Article 9 du RGPD)
+Par principe, le traitement des données de santé est interdit. Pour lever cette interdiction, il faut remplir au moins une exception de l'article 9.2, selon la finalité de l'étude :
+ 
+Si l'étude vise à améliorer le suivi médical (rappel des patients) :
+L'exception applicable est la prise en charge sanitaire et la gestion des systèmes et services de soins de santé (Article 9.2.h).
+Condition supplémentaire stricte : Les données doivent obligatoirement être traitées par un professionnel de santé soumis au secret professionnel (ou sous sa responsabilité), conformément au droit belge (loi relative aux droits du patient).
+Si l'étude est un projet de recherche scientifique ou statistique pur :
+L'exception applicable est la recherche scientifique ou statistique (Article 9.2.j).
+Condition supplémentaire stricte (Droit belge - Loi du 30 juillet 2018) : L'équipe doit mettre en place des garanties appropriées, notamment la pseudonymisation préalable des données (via un tiers de confiance ou un intermédiaire au sein de l'hôpital), tenir un registre précis des traitements, et soumettre le protocole à un comité d'éthique si la loi belge sur l'expérimentation humaine s'applique.
+
 
